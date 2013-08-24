@@ -28,6 +28,7 @@
     go-mode            
     haskell-mode       
     less-css-mode      
+    markdown-mode
     org                
     paredit            
     php-mode           

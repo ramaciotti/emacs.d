@@ -14,28 +14,28 @@
 (defvar packages-list
   '(auto-complete
     color-theme-sanityinc-tomorrow
-    csharp-mode        
-    evil               
-    evil-leader        
+    csharp-mode
+    evil
+    evil-leader
     evil-nerd-commenter
-    evil-numbers       
-    evil-paredit       
-    flymake            
-    flymake-easy       
-    flymake-php        
-    flymake-phpcs      
-    gandalf-theme      
-    go-mode            
-    haskell-mode       
-    less-css-mode      
+    evil-numbers
+    evil-paredit
+    flymake
+    flymake-easy
+    flymake-php
+    flymake-phpcs
+    gandalf-theme
+    go-mode
+    haskell-mode
+    less-css-mode
     markdown-mode
-    org                
-    paredit            
-    php-mode           
-    popup              
-    rainbow-delimiters 
-    twilight-theme     
-    undo-tree          
+    org
+    paredit
+    php-mode
+    popup
+    rainbow-delimiters
+    twilight-theme
+    undo-tree
     yasnippet)
   "List of packages needs to be installed at launch")
 
@@ -101,6 +101,7 @@
 (set-default 'tramp-default-proxies-alist (quote ((".*" "\\`root\\'" "/ssh:%h:"))))
 
 (setq uniquify-buffer-name-style 'post-forward)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 
 ;;;  Mode settings

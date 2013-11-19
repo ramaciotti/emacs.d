@@ -31,7 +31,7 @@
 
 
 ;;;  Startup settings
-(load-theme 'sanityinc-tomorrow-night)
+(load-theme 'sanityinc-tomorrow-night t)
 (global-rainbow-delimiters-mode)
 (ac-config-default)
 (yas-global-mode)

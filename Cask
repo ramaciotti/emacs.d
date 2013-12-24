@@ -4,7 +4,6 @@
 (source "marmalade" "http://marmalade-repo.org/packages/")
 
 (depends-on "auto-complete")
-(depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "csharp-mode")
 (depends-on "evil")
 (depends-on "evil-leader")
@@ -15,7 +14,6 @@
 (depends-on "flymake-easy")
 (depends-on "flymake-php")
 (depends-on "flymake-phpcs")
-(depends-on "gandalf-theme")
 (depends-on "git-gutter-fringe")
 (depends-on "go-mode")
 (depends-on "haskell-mode")
@@ -26,8 +24,9 @@
 (depends-on "php-mode")
 (depends-on "popup")
 (depends-on "rainbow-delimiters")
+(depends-on "rust-mode")
 (depends-on "smart-mode-line")
-(depends-on "twilight-theme")
+(depends-on "tuareg")
 (depends-on "undo-tree")
 (depends-on "yasnippet")
 
@@ -42,3 +41,6 @@
 (depends-on "s")
 (depends-on "smex")
 (depends-on "wrap-region")
+
+(depends-on "color-theme-sanityinc-tomorrow")
+(depends-on "gandalf-theme")

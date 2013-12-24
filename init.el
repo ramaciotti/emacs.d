@@ -26,6 +26,10 @@
 
 
 ;;;  Startup settings
+<<<<<<< HEAD
+=======
+(load-theme 'sanityinc-tomorrow-night t)
+>>>>>>> 40dc23e781b405f98c9a8f4888e4dc9623deabd3
 (global-rainbow-delimiters-mode)
 (ac-config-default)
 (yas-global-mode)

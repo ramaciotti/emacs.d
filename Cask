@@ -24,6 +24,7 @@
 (depends-on "paredit")
 (depends-on "php-mode")
 (depends-on "popup")
+(depends-on "powerline")
 (depends-on "rainbow-delimiters")
 (depends-on "rust-mode")
 (depends-on "smart-mode-line")

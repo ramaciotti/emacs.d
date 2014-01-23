@@ -1,0 +1,10 @@
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+
+(require 'auto-complete)
+(require 'auto-complete-config)
+(require 'cl)
+(require 'package)
+(require 'powerline)
+(require 'uniquify)
+(require 'yasnippet)

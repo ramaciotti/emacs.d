@@ -11,8 +11,7 @@
 (when (window-system)
   (require 'git-gutter-fringe))
 
-
-;; ;;; Set up font and unicode fallback
+;;; Set up font and unicode fallback
 (setq initial-frame-alist '((font . "Droid Sans Mono-9")))
 (setq default-frame-alist '((font . "Droid Sans Mono-9")))
 
@@ -26,10 +25,6 @@
 
 
 ;;;  Startup settings
-<<<<<<< HEAD
-=======
-(load-theme 'sanityinc-tomorrow-night t)
->>>>>>> 40dc23e781b405f98c9a8f4888e4dc9623deabd3
 (global-rainbow-delimiters-mode)
 (ac-config-default)
 (yas-global-mode)
@@ -43,6 +38,8 @@
 (when (window-system)
   (scroll-bar-mode -1)
   (tool-bar-mode -1)
+  (menu-bar-mode 0)
+  (blink-cursor-mode 0)
 
   (global-git-gutter-mode 1)
   (setq-default indicate-buffer-boundaries 'left)
@@ -87,7 +84,8 @@
 (add-hook 'c-mode-common-hook
           (lambda ()
             (setq c-basic-offset 4)
-            (c-set-offset 'substatement-open 0)))
+            (c-set-offset 'substatement-open 0)
+            (local-set-key (kbd "C-c C-m") 'compile)))
 
 (add-hook 'css-mode-hook (lambda () (setq css-indent-offset 2)))
 

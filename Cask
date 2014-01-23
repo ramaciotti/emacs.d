@@ -15,6 +15,7 @@
 (depends-on "flymake-php")
 (depends-on "flymake-phpcs")
 (depends-on "git-gutter-fringe")
+(depends-on "glsl-mode")
 (depends-on "go-mode")
 (depends-on "haskell-mode")
 (depends-on "less-css-mode")

@@ -1,5 +1,10 @@
 (global-rainbow-delimiters-mode)
+
 (ac-config-default)
+(define-key ac-mode-map  [(control tab)] 'auto-complete)
+(setq ac-auto-start nil)
+(setq ac-quick-help-delay 0.5)
+
 (yas-global-mode)
 (sml/setup)
 

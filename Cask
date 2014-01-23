@@ -4,6 +4,7 @@
 (source "marmalade" "http://marmalade-repo.org/packages/")
 
 (depends-on "auto-complete")
+(depends-on "auto-complete-clang-async")
 (depends-on "csharp-mode")
 (depends-on "evil")
 (depends-on "evil-leader")

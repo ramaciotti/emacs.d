@@ -3,6 +3,7 @@
 
 (require 'auto-complete)
 (require 'auto-complete-config)
+(require 'auto-complete-clang)
 (require 'cl)
 (require 'package)
 (require 'powerline)

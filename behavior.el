@@ -1,5 +1,12 @@
 (global-rainbow-delimiters-mode)
 
+(semantic-mode)
+(global-ede-mode 1)
+(global-semantic-idle-local-symbol-highlight-mode)
+(global-semantic-idle-summary-mode)
+(global-semantic-idle-scheduler-mode)
+(global-semantic-idle-completions-mode)
+
 (ac-config-default)
 (define-key ac-mode-map  [(control tab)] 'auto-complete)
 (setq ac-auto-start nil)

@@ -6,6 +6,7 @@
 (depends-on "auto-complete")
 (depends-on "auto-complete-clang-async")
 (depends-on "csharp-mode")
+(depends-on "ecb")
 (depends-on "evil")
 (depends-on "evil-leader")
 (depends-on "evil-nerd-commenter")

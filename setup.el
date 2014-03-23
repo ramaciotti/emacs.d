@@ -8,4 +8,5 @@
 (require 'package)
 (require 'powerline)
 (require 'uniquify)
+(require 'whitespace)
 (require 'yasnippet)

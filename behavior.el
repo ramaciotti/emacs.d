@@ -19,11 +19,8 @@
               initial-scratch-message nil)
 
 (show-paren-mode t)
-
 (server-mode)
-
 (global-auto-revert-mode)
-(global-hl-line-mode t)
 
 ;;;  Behavior settings
 (setq-default truncate-lines t
@@ -53,3 +50,7 @@
 
 (setq mouse-wheel-follow-mouse 't)
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
+
+(global-whitespace-mode t)
+(setq whitespace-line-column 79)
+(setq whitespace-style '(face lines-tail))

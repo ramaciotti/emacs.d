@@ -10,4 +10,4 @@
                                :size 11
                                :weight 'normal)))
 
-(load-theme 'sanityinc-tomorrow-day t)
+(load-theme 'brin t)

@@ -30,6 +30,7 @@
 (depends-on "rainbow-delimiters")
 (depends-on "rust-mode")
 (depends-on "smart-mode-line")
+(depends-on "sublimity")
 (depends-on "tuareg")
 (depends-on "undo-tree")
 (depends-on "yasnippet")

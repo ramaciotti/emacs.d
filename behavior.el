@@ -54,3 +54,5 @@
 (global-whitespace-mode t)
 (setq whitespace-line-column 79)
 (setq whitespace-style '(face lines-tail))
+
+(sublimity-global-mode)

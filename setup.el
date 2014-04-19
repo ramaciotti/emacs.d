@@ -7,6 +7,11 @@
 (require 'cl)
 (require 'package)
 (require 'powerline)
+
+(require 'sublimity)
+(require 'sublimity-scroll)
+(require 'sublimity-map)
+
 (require 'uniquify)
 (require 'whitespace)
 (require 'yasnippet)

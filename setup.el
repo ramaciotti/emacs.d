@@ -5,6 +5,7 @@
 (require 'auto-complete-config)
 (require 'auto-complete-clang)
 (require 'cl)
+(require 'ido)
 (require 'package)
 (require 'powerline)
 

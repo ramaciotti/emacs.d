@@ -56,3 +56,4 @@
 (setq whitespace-style '(face lines-tail))
 
 (sublimity-global-mode)
+(ido-mode t)

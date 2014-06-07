@@ -2,5 +2,6 @@
 (load "~/.emacs.d/behavior.el")
 (load "~/.emacs.d/appearance.el")
 (load "~/.emacs.d/font-and-theme.el")
+(load "~/.emacs.d/orgmode.el")
 (load "~/.emacs.d/powerline.el")
 (load "~/.emacs.d/hooks.el")

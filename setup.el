@@ -6,11 +6,9 @@
 (require 'auto-complete-clang)
 (require 'cl)
 (require 'ido)
+(require 'org)
 (require 'package)
 (require 'powerline)
-
-(require 'sublimity)
-(require 'sublimity-scroll)
 
 (require 'uniquify)
 (require 'whitespace)

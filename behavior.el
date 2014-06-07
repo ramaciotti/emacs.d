@@ -55,5 +55,12 @@
 (setq whitespace-line-column 79)
 (setq whitespace-style '(face lines-tail))
 
-(sublimity-global-mode)
 (ido-mode t)
+
+(put 'upcase-region 'disabled nil)
+
+;; Merlin needs to be installed externally (though the emacs plugin may
+;; be installed via Cask).  `opam install merlin`
+(setq merlin-command "/home/andre/.opam/system/bin/ocamlmerlin")
+(add-hook 'tuareg-mode-hook 'merlin-mode)
+(add-hook 'caml-mode-hook 'merlin-mode)

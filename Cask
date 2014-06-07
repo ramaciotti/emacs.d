@@ -22,6 +22,7 @@
 (depends-on "haskell-mode")
 (depends-on "less-css-mode")
 (depends-on "markdown-mode")
+(depends-on "merlin")
 (depends-on "org")
 (depends-on "paredit")
 (depends-on "php-mode")

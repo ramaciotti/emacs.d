@@ -13,3 +13,5 @@
 (require 'uniquify)
 (require 'whitespace)
 (require 'yasnippet)
+
+(setq custom-theme-directory "~/.emacs.d/themes")

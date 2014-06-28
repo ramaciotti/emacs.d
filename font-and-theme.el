@@ -1,5 +1,5 @@
-(setq initial-frame-alist '((font . "Consolas-9")))
-(setq default-frame-alist '((font . "Consolas-9")))
+(setq initial-frame-alist '((font . "Ubuntu Mono-9")))
+(setq default-frame-alist '((font . "Ubuntu Mono-9")))
 
 ;; unicode fallback
 (when (functionp 'set-fontset-font)
@@ -10,4 +10,4 @@
                                :size 11
                                :weight 'normal)))
 
-(load-theme 'brin t)
+(load-theme 'base16-grayscale-light t)

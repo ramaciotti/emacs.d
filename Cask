@@ -4,7 +4,7 @@
 (source "marmalade" "http://marmalade-repo.org/packages/")
 
 (depends-on "auto-complete")
-(depends-on "auto-complete-clang-async")
+(depends-on "auto-complete-clang")
 (depends-on "csharp-mode")
 (depends-on "ecb")
 (depends-on "evil")
@@ -30,7 +30,6 @@
 (depends-on "powerline")
 (depends-on "rainbow-delimiters")
 (depends-on "rust-mode")
-(depends-on "smart-mode-line")
 (depends-on "sublimity")
 (depends-on "tuareg")
 (depends-on "undo-tree")
@@ -47,6 +46,3 @@
 (depends-on "s")
 (depends-on "smex")
 (depends-on "wrap-region")
-
-(depends-on "color-theme-sanityinc-tomorrow")
-(depends-on "gandalf-theme")

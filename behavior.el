@@ -1,4 +1,4 @@
-(global-rainbow-delimiters-mode)
+; (global-rainbow-delimiters-mode)
 
 (semantic-mode)
 (global-ede-mode 1)
@@ -51,9 +51,9 @@
 (setq mouse-wheel-follow-mouse 't)
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
 
-(global-whitespace-mode t)
-(setq whitespace-line-column 79)
-(setq whitespace-style '(face lines-tail))
+;(global-whitespace-mode t)
+;(setq whitespace-line-column 79)
+;(setq whitespace-style '(face lines-tail))
 
 (ido-mode t)
 

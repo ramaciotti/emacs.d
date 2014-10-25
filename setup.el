@@ -9,7 +9,7 @@
 (require 'org)
 (require 'package)
 (require 'powerline)
-
+(require 'rainbow-delimiters)
 (require 'uniquify)
 (require 'whitespace)
 (require 'yasnippet)
